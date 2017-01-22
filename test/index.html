@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>Időjárás</title>
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="http://code.jquery.com/jquery-2.1.4.min.js" ></script>
+<script src="js/script.js" ></script>
+
+</head>
+<body>
+
+<div class="header">
+
+<a class="button" href="index.html">Home</a>
+
+<select id = "select">
+<option style="color:white" value="null">------Válassz!-------</option>
+
+<option value="main">Hőmérséklet és Légnyomás</option>
+<option value="weather">Általánosságban</option>
+<option value="wind">Szélerősség</option>
+<option value="sys">Napkelte, Napnyugta</option>
+<option value="coord">Koordináták</option>
+
+</select>
+
+<input type="text" id="input">
+<button type="button" id="submit">Keresés</button>
+</div>
+
+<div id="content" class="weather-list">
+<!--content-->
+</div>
+
+</body>
+</html>
